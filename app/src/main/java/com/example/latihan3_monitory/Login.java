@@ -5,7 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+/**
+ * Tanggal Pengerjaan : Senin, 3 Mei 2021
+ * Deskripsi Pekerjaan: Membuat tampilan Login dan memberikan intent untuk menuju ke halaman Data_Diri
+ * Nim : 10118069
+ * Nama : Muhamad Rizqi Ramdani
+ * Kelas : IF-2
+ **/
 public class Login extends AppCompatActivity {
 
     @Override

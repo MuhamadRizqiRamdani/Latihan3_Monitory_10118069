@@ -6,7 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
+/**
+ * Tanggal Pengerjaan : Senin, 3 Mei 2021
+ * Deskripsi Pekerjaan: Membuat tampilan Finish dan menerima input nama dari halaman data diri untuk ditampilkan pada text kamu
+ * Nim : 10118069
+ * Nama : Muhamad Rizqi Ramdani
+ * Kelas : IF-2
+ **/
 public class Finish extends AppCompatActivity {
 
     @Override
