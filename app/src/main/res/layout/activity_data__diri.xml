@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data_Diri"
+    android:paddingTop="?android:attr/actionBarSize"
+    android:paddingHorizontal="24dp"
+    android:background="@color/white3">
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black3"
+        android:fontFamily="@font/nunito_bold"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="@string/nama_panggil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/isinama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/contoh_nama"
+        android:inputType="text"
+        android:background="@drawable/text_line"
+        app:layout_constraintTop_toBottomOf="@id/nama"/>
+
+    <TextView
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black3"
+        android:fontFamily="@font/nunito_bold"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="@string/umur"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/isinama"/>
+
+    <EditText
+        android:id="@+id/isiumur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/contoh_umur"
+        android:inputType="text"
+        android:background="@drawable/text_line"
+        app:layout_constraintTop_toBottomOf="@id/umur"/>
+
+    <android.widget.Button
+        android:id="@+id/btnselanjutnya"
+        android:onClick="btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="62dp"
+        android:layout_marginVertical="20dp"
+        android:fontFamily="@font/rubik_regular"
+        android:textStyle="bold"
+        android:text="@string/next"
+        android:background="@drawable/btn_kuning"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

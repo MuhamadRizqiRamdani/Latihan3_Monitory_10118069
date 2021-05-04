@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Latihan3_Monitory</string>
+    <string name="welcome">Monitory Membantu Anda</string>
+    <string name="welcome2">Mengontrol HP Anak</string>
+    <string name="mulai">Mulai</string>
+
+    <string name="kk">Kode Keluarga</string>
+    <string name="ketik_kk">ketikkan kode keluarga yang ayah bunda miliki disini</string>
+    <string name="number_kk">A1B2C3</string>
+    <string name="persetujuan">Dengan menekan tombol masuk berarti Anda menyetujui
+        <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="masuk">Masuk</string>
+    <string name="no_kk">Belum punya kode keluarga?</string>
+    <string name="beli_kk">Beli Kode Keluarga Disini</string>
+
+    <string name="nama_panggil">Nama Panggilan kamu</string>
+    <string name="contoh_nama">Contoh : Budi</string>
+    <string name="umur">Umur Kamu</string>
+    <string name="contoh_umur">Contoh : 12</string>
+    <string name="next">Selanjutnya</string>
+
+    <string name="pesan_beres">
+        Beres! Sekarang %s udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)
+    </string>
+    <string name="oke">Oke</string>
+
+</resources>
